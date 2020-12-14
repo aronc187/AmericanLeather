@@ -1,0 +1,374 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+/*navbar*/
+.introDIV, .navbar {
+    background-color: #333;
+    
+}
+
+.navbar ul {
+    list-style: none;
+}
+
+.navbar ul li {
+    float: left;
+}
+
+.navbar ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+.navbar ul li {
+    padding: 10px;
+}
+
+.navbar a {
+    color:white;    
+}
+
+.navbar h1 {
+    float: left;
+}
+
+.hero {
+    background-color:#333;
+    margin: 0;
+    padding: 0;
+}
+/*main styling*/
+
+
+html, body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+
+}
+
+.navbar ul li a:hover,.navbar h1 a:hover {
+    background: #444;
+    color: rgb(26, 99, 145);
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+/*icon*/
+
+i, span {
+    color: rgb(26, 99, 145);
+}
+
+
+/*ABOUT US CSS THE REST IS FOR THE HEADER AND FOOTER  */
+
+
+
+.btn-block {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.yoo {
+    margin-bottom: 100px;
+}
+/*grid container*/
+
+
+.page-container {
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+    margin: 2rem 0;
+    grid-gap: 1.5rem;
+}
+
+.page-container > *:first-child {
+    grid-row: 1 / span 3;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*Third section */
+
+.box {
+    float: left;
+    width: 33.3%;
+    padding: 50px;
+    text-align: center;
+}
+
+
+.box i {
+    margin-bottom: 10px;
+}
+
+#yolo {
+    background-color: rgb(26, 99, 145);
+    color: #fff;
+}
+
+#yolo i {
+    color: #fff;
+}
+
+
+.container .footer-container {
+    position: absolute;
+    bottom: 0;
+    height: 50px;
+}
+
+
+/*media queries*/
+
+@media screen and (min-width: 375px) {
+
+    .navbar ul li a {
+        display: block;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .navbar h1 {
+        font-size: 35px;
+        padding-left: 5px;
+    }
+    
+
+
+}
+
+@media screen and (max-width: 415px) {
+
+    .navbar ul li a {
+        display: block;
+        padding: 6px;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .navbar h1 {
+        font-size: 30px;
+        padding-left: 1px;
+    }
+    
+
+    #marco {
+        display: none;
+    }
+
+    .emaildiv {
+        display: none;
+    }
+
+
+}
+
+
+@media screen and (min-width: 375px) {
+
+    .navbar ul li a {
+        display: block;
+        padding: 6px;
+        text-align: center;
+        font-size: 19px;
+    }
+
+    .navbar h1 {
+        font-size: 35px;
+        padding-left: 1px;
+    }
+    
+
+}
+
+@media screen and (min-width: 1024px) {
+
+    .navbar ul li a {
+        display: block;
+        padding: 6px;
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .navbar h1 {
+        font-size: 35px;
+        padding-left: 1px;
+    }
+    
+
+}
+
+
+@media screen and (min-width: 1950px) {
+
+    .show-content {
+        background: url('../images/catalog_img3.jpg') no-repeat center center/cover;
+        height: 1400px;
+    }   
+    
+    
+    
+
+}
+
+
+.dropbtn {
+    background-color: #333;
+    color: white;
+    padding: 7px;
+    font-size: 27px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: rgb(26, 99, 145);}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {
+      background-color: #444;
+  }
+
+
+
+  /*foooter*/
+
+
+.clr {
+    clear:both;
+}
+
+
+.main-footer { 
+    position: sticky; 
+    bottom: 0px; 
+}
+
+
+#about {
+    overflow: hidden;
+    height: 1000px;
+}
+
+
+
+
+.main-footer img {
+    width: 150px;
+    padding-top: 15px ;
+
+}
+
+.main-footer h3 {
+    padding-top: 15px;
+}
+
+
+.main-footer h2 {
+    padding-top: 14px;
+}
+
+.main-footer p {
+    margin: 0.5rem 0;
+}
+
+.main-footer {
+    background:#333;
+    color: #fff;
+}
+
+.main-footer a {
+    color: #fff;
+}
+
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1.2rem;
+}
+
+.footer-container > *:last-child {
+    background:#444;
+    grid-column: 1 / span 4;
+    padding: .5rem;
+    text-align: center;
+    font-size: 1rem ;
+}
+
+.main-footer .footer-container input[type='email'] {
+    width: 90%;
+    padding: 0.5rem;
+    margin-bottom:0.5rem ;
+}
+
+
+.main-footer .footer-container input[type='submit'] {
+    width: 90%;
+}
+
+
+
+/*loader*/
+
+.loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgb(25, 31, 38);
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.disppear {
+    animation: vanish 1s forwards;
+}
+
+@keyframes vanish {
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+}

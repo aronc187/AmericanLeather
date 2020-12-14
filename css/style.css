@@ -1,0 +1,558 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*navbar*/
+.introDIV, .navbar {
+    background-color: #333;
+    
+}
+
+.navbar ul {
+    list-style: none;
+}
+
+.navbar ul li {
+    float: left;
+}
+
+.navbar ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+.navbar ul li {
+    padding: 10px;
+}
+
+.navbar a {
+    color:white;    
+}
+
+.navbar h1 {
+    float: left;
+}
+
+.hero {
+    background-color:#333;
+    margin: 0;
+    padding: 0;
+}
+/*main styling*/
+
+
+html, body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+
+}
+
+.navbar ul li a:hover,.navbar h1 a:hover {
+    background: #444;
+    color: rgb(26, 99, 145);
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+/*icon*/
+
+i, span {
+    color: rgb(26, 99, 145);
+}
+
+
+/*SECOND DIV AFTER THE DIV CONTAINING THE NAVBAR   */
+
+.show-content {
+    background: url('../images/catalog_img3.jpg') no-repeat center center/cover;
+    height: 800px;
+}   
+
+
+
+/*show-case content*/
+
+
+.showcase-content {
+    text-align: center;
+    padding-top: 180px;
+    color: #fff;
+}
+
+
+
+.show-content .showcase-content h1 {
+    font-size: 60px;
+    line-height: 1.2em;
+    text-shadow: 2px 2px 4px #000000;
+
+}
+
+.show-content .showcase-content h2 {
+    text-shadow: 2px 2px 4px #000000;
+    line-height: 2em;
+}
+
+.link_to_AU {
+    display: inline-block;
+    font-size: 18px;
+    color: white;
+    background: rgb(26, 99, 145);
+    text-shadow: 2px 2px 4px #000000;
+    padding: 13px 20px;
+    border: none;
+    text-align: center;
+    border-radius: 5px;
+
+}
+
+.showcase-content a:hover {
+    text-decoration: none;
+    background: #444;
+}
+
+
+/*second section of website*/
+
+.home-info .inf
+
+
+.home-info {
+    height: 400px;
+}
+
+.home-info .img-content {
+    float: left;
+    width: 50%;
+    background: url(../images/boots.jpeg) no-repeat;
+    background-size: cover;
+    min-height: 100%;
+    height: 500px;
+    
+    
+    
+}
+
+.home-info .info-cont3nt{
+    float: right;
+    width: 50%;
+    text-align: center;
+    padding: 60px 30px;
+    overflow: hidden;
+    background: #333;
+    height: 500px;
+}
+
+.home-info .info-cont3nt p {
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+.home-info .info-cont3nt h2 {
+    font-size: 40px;
+    padding-bottom: 15px;
+}
+
+.text-primary {
+    color: rgb(26, 99, 145);
+}
+
+.text_p {
+    color:#fff;
+}
+
+.p_text {
+    color: #fff;
+}
+
+
+.btn-light {
+    background-color: rgb(26, 99, 145);
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.btn-light:hover {
+    background-color:#fff;
+    text-decoration: none;
+}
+
+
+/*Third section */
+
+.box {
+    float: left;
+    width: 33.3%;
+    padding: 50px;
+    text-align: center;
+}
+
+
+.box i {
+    margin-bottom: 10px;
+}
+
+#yolo {
+    background-color: rgb(26, 99, 145);
+    color: #fff;
+}
+
+#yolo i {
+    color: #fff;
+}
+
+
+.dropdown button {
+    font-size: 18px;
+}
+
+
+/*media queries*/
+
+
+@media screen and (max-width: 320px) {
+
+
+#rum {
+    display: none;
+}
+
+.img-content {
+   display: none;
+}   
+.emaildiv {
+    display: none;
+           
+            
+    }
+    
+.navbar ul li a {
+   display: block;
+   padding: 6px;
+   text-align: center;
+   font-size: 15px;
+    }
+    
+.navbar h1 {
+    font-size: 30px;
+    padding-left: 1px;
+}
+        
+    
+.box {
+    float: left;
+    width: 33.3%;
+    padding: 20px;
+    text-align: center;
+}
+        
+        
+.box i {
+    margin-bottom: 8px;
+}
+        
+#yolo.box {
+    background-color: #fff;
+    color: #444;
+}
+        
+#yolo.box i {
+    color: rgb(26, 99, 145);
+}
+#box9 {
+     display: none;
+    }
+        
+    
+#mobiles {
+    font-size: 14px;
+}
+    
+#box77 {
+            font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+
+
+    .emaildiv {
+        display: none;
+       
+        
+    }
+
+    .navbar ul li a {
+        display: block;
+        padding: 6px;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .navbar h1 {
+        font-size: 30px;
+        padding-left: 1px;
+    }
+    
+
+    .box {
+        float: left;
+        width: 33.3%;
+        padding: 40px;
+        text-align: center;
+    }
+    
+    
+    .box i {
+        margin-bottom: 8px;
+    }
+    
+    #yolo {
+        background-color: rgb(26, 99, 145);
+        color: #fff;
+    }
+    
+    #yolo i {
+        color: #fff;
+    }
+    #box9 {
+        display: none;
+    }
+    
+
+    #mobiles {
+        font-size: 14px;
+    }
+
+    #box77 {
+        font-size: 28px;
+    }
+}
+
+
+@media screen and (max-width: 415px) {
+
+    .emaildiv {
+        display: none;
+       
+        
+    }
+
+    .navbar ul li a {
+        display: block;
+        padding: 6px;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .navbar h1 {
+        font-size: 30px;
+        padding-left: 1px;
+    }
+    
+
+    .box {
+        float: left;
+        width: 33.3%;
+        padding: 40px;
+        text-align: center;
+    }
+    
+    
+    .box i {
+        margin-bottom: 8px;
+    }
+    
+    #yolo {
+        background-color: rgb(26, 99, 145);
+        color: #fff;
+    }
+    
+    #yolo i {
+        color: #fff;
+    }
+    #box9 {
+        display: none;
+    }
+    
+
+    #mobiles {
+        font-size: 14px;
+    }
+
+    #box77 {
+        font-size: 28px;
+    }
+    
+
+}
+
+@media screen and (min-width: 1024px) {
+
+    .navbar ul li a {
+        display: block;
+        padding: 6px;
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .navbar h1 {
+        font-size: 35px;
+        padding-left: 1px;
+    }
+    
+
+}
+
+
+@media screen and (min-width: 1950px) {
+
+    .show-content {
+        background: url('../images/catalog_img3.jpg') no-repeat center center/cover;
+        height: 1400px;
+    }   
+    
+    
+    
+
+}
+
+
+.dropbtn {
+    background-color: #333;
+    color: white;
+    padding: 7px;
+    font-size: 27px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: rgb(26, 99, 145);}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {
+      background-color: #444;
+  }
+
+
+
+  /*foooter*/
+
+
+
+.clr {
+    clear:both;
+}
+
+
+
+
+.main-footer img {
+    width: 150px;
+    padding-top: 15px ;
+
+}
+
+.main-footer h3 {
+    padding-top: 15px;
+}
+
+
+.main-footer h2 {
+    padding-top: 14px;
+}
+
+.main-footer p {
+    margin: 0.5rem 0;
+}
+
+.main-footer {
+    background:#333;
+    color: #fff;
+}
+
+.main-footer a {
+    color: #fff;
+}
+
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1.2rem;
+}
+
+.footer-container > *:last-child {
+    background:#444;
+    grid-column: 1 / span 4;
+    padding: .5rem;
+    text-align: center;
+    font-size: 1rem ;
+}
+
+.main-footer .footer-container input[type='email'] {
+    width: 90%;
+    padding: 0.5rem;
+    margin-bottom:0.5rem ;
+}
+
+
+.main-footer .footer-container input[type='submit'] {
+    width: 90%;
+}
+
+
+
+/*loader*/
+
+.loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgb(25, 31, 38);
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.disppear {
+    animation: vanish 1s forwards;
+}
+
+@keyframes vanish {
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+}

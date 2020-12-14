@@ -1,0 +1,381 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*navbar*/
+.introDIV, .navbar {
+    background-color: #333;
+    
+}
+
+.navbar ul {
+    list-style: none;
+}
+
+.navbar ul li {
+    float: left;
+}
+
+.navbar ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+.navbar ul li {
+    padding: 10px;
+}
+
+.navbar a {
+    color:white;    
+}
+
+.navbar h1 {
+    float: left;
+}
+
+.hero {
+    background-color:#333;
+    margin: 0;
+    padding: 0;
+}
+/*main styling*/
+
+
+html, body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+
+}
+
+.navbar ul li a:hover,.navbar h1 a:hover {
+    background: #444;
+    color: rgb(26, 99, 145);
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+/*icon*/
+
+i, span {
+    color: rgb(26, 99, 145);
+}
+
+
+/*ABOUT US CSS THE REST IS FOR THE HEADER AND FOOTER  */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #2196F3;
+    padding: 10px;
+    grid-column-gap: 10px;
+  }
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);;
+    padding: 20px;
+}
+
+
+/*contact*/
+
+
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+
+.form-group label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+
+.btnn {
+    padding: 8px;
+    border-radius: 5px;
+    background: #333;
+    color: #fff;
+}
+
+
+
+.btnn:hover {
+    background: #2196F3;
+    color: #323;
+}
+
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px;
+}
+
+.form-group textarea {
+    height: 200px;
+}
+
+
+.form-group input:focus, .form-group textarea:focus {
+
+    outline: none;
+    border-color: #2196F3;
+
+
+}
+/*Third section */
+
+.box {
+    float: left;
+    width: 33%;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+
+.box i {
+    margin-bottom: 10px;
+}
+
+#yolo {
+    background-color: rgb(26, 99, 145);
+    color: #fff;
+}
+
+#yolo i {
+    color: #fff;
+}
+
+
+
+
+/*media queries*/
+
+@media screen and (max-width: 415px) {
+
+    .navbar ul li a {
+        display: block;
+        padding: 6px;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .navbar h1 {
+        font-size: 30px;
+        padding-left: 1px;
+    }
+    
+
+    #marco {
+        display: none;
+    }
+
+    .emaildiv {
+        display: none;
+    }
+
+    #item2 {
+        display: hidden;
+    }
+
+
+}
+
+
+@media screen and (min-width: 375px) {
+
+    .navbar ul li a {
+        display: block;
+        padding: 6px;
+        text-align: center;
+        font-size: 19px;
+    }
+
+    .navbar h1 {
+        font-size: 35px;
+        padding-left: 1px;
+    }
+    
+
+}
+
+@media screen and (min-width: 1024px) {
+
+    .navbar ul li a {
+        display: block;
+        padding: 6px;
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .navbar h1 {
+        font-size: 35px;
+        padding-left: 1px;
+    }
+    
+
+}
+
+
+@media screen and (min-width: 1950px) {
+
+    .show-content {
+        background: url('../images/catalog_img3.jpg') no-repeat center center/cover;
+        height: 1400px;
+    }   
+    
+    
+    
+
+}
+
+
+.dropbtn {
+    background-color: #333;
+    color: white;
+    padding: 7px;
+    font-size: 27px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: rgb(26, 99, 145);}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {
+      background-color: #444;
+  }
+
+
+
+  /*foooter*/
+
+
+.clr {
+    clear:both;
+}
+
+
+.main-footer { 
+    position: relative; 
+    left: 0; bottom: 0; right: 0;
+}
+
+
+
+
+
+
+
+.main-footer img {
+    width: 150px;
+    padding-top: 15px ;
+
+}
+
+.main-footer h3 {
+    padding-top: 15px;
+}
+
+
+.main-footer h2 {
+    padding-top: 14px;
+}
+
+.main-footer p {
+    margin: 0.5rem 0;
+}
+
+.main-footer {
+    background:#333;
+    color: #fff;
+}
+
+.main-footer a {
+    color: #fff;
+}
+
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1.2rem;
+}
+
+.footer-container > *:last-child {
+    background:#444;
+    grid-column: 1 / span 4;
+    padding: .5rem;
+    text-align: center;
+    font-size: 1rem ;
+}
+
+.main-footer .footer-container input[type='email'] {
+    width: 90%;
+    padding: 0.5rem;
+    margin-bottom:0.5rem ;
+}
+
+
+.main-footer .footer-container input[type='submit'] {
+    width: 90%;
+}
+
+
+
+/*loader*/
+
+.loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgb(25, 31, 38);
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.disppear {
+    animation: vanish 1s forwards;
+}
+
+@keyframes vanish {
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
